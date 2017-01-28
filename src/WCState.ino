@@ -30,8 +30,6 @@ light_state: INT
 #define LIGHT_ON_THRESHOLD 3500 //above this threshold light is considered as ON
 #define LIGHT_OFF_THRESHOLD 2900 //below this threshold light is considered as OFF
 
-IntervalTimer timer1; //timer for 15 minutes to notify the user
-
 char publishString[40];
 int photoresistor = A0; // Photoresistor Input
 int statusLED = D7;
