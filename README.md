@@ -2,6 +2,15 @@
 
 A Particle project named WCState
 
+
+## Wiring 
+
+![](http://i.imgur.com/WJgCa65.jpeg)
+
+## Sensor Calibration
+
+Calibrate the sensor values and set them up on ```LIGHT_ON_THRESHOLD``` and ```LIGHT_OFF_THRESHOLD``` defines
+
 ## Welcome to your project!
 
 Every new Particle project is composed of 3 important elements that you'll see have been created in your project directory for WCState.
