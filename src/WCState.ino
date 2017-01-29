@@ -35,7 +35,7 @@ int photoresistor = A0; // Photoresistor Input
 int statusLED = D7;
 int power = A1; // Supplies power to the Photoresistor
 int analogvalue; // Reads analogic value from the Photoresistor
-int light_state = 0; // Counts the amout of mails slided into the mailbox (if several mails are slided at the same time, they'll be counted as one )
+int light_state = 0; // Current bathroom light state
 
 
 // Pre-define ISR callback functions
